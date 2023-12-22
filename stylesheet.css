@@ -3,6 +3,16 @@
   src: url(fonts/LaBelleAurore-Regular.ttf);
 }
 
+@font-face {
+  font-family: "PT Mono";
+  src: url(fonts/PTMono-Regular.ttf);
+}
+
+@font-face {
+  font-family: "PressStart2P";
+  src: url(fonts/PressStart2P-Regular.ttf);
+}
+
 .header-se {
   height: 980px;
   background-image: url(images/header.jpg);
