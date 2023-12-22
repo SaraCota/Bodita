@@ -16,6 +16,14 @@
   src: url(fonts/PressStart2P-Regular.ttf);
 }
 
+body{
+  font-family: "PT Mono";
+}
+
+.ts-default{
+  font-size: 24px;
+}
+
 .header-se {
   height: 980px;
   background-image: url(images/header.jpg);
@@ -39,6 +47,23 @@
     rgba(255, 255, 255, 1) 15%,
     rgba(255, 255, 255, 0) 100%
   );
+}
+
+.h_cursive{
+  color: #E93F61;
+  font-family: "La Belle Aurore";
+  font-size: 32px;
+}
+
+.rotate90{
+  transform: rotate(90deg);
+  height: 347px;
+  width: 250px;
+}
+.rotate270{
+  transform: rotate(270deg);
+  height: 347px;
+  width: 250px;
 }
 
 .header-1 {
