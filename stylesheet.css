@@ -16,14 +16,6 @@
   src: url(fonts/PressStart2P-Regular.ttf);
 }
 
-body{
-  font-family: "PT Mono";
-}
-
-.ts-default{
-  font-size: 24px;
-}
-
 .header-se {
   height: 980px;
   background-image: url(images/header.jpg);
@@ -62,33 +54,10 @@ body{
 }
 
 .gifs {
-  position: relative;
-  right: 50%;
-  width: 500px;
+  width: 200px;
   image-rendering: pixelated;
 }
 
-.h_cursive{
-  font-family: "La Belle Aurore";
-  margin: auto;
-  color: #E93F61;
-  font-size: 48px;
-  height: 65px;
-  width: 632px;
-}
-
-.rotate90{
-  transform: rotate(90deg);
-  position: relative;
-  height: 250px;
-  width: 247px;
-}
-.rotate270{
-  transform: rotate(270deg);
-  position: relative;
-  height: 250px;
-  width: 247px;
-}
 .gifs-m {
   display: none;
 }
@@ -106,17 +75,14 @@ body{
   }
 
   .gifs {
-    position: inherit;
-    right: 0%;
-    width: 100%;
-  }
-
-  .gifs-d {
-    display: none;
-  }
-
-  .gifs-m {
     display: flex;
+    width: 12vh;
+    justify-content: center;
+  }
+
+  .text1 {
+    width: 80%;
+    font-size: 150%;
   }
   .h_cursive{
     font-size: 38px;
