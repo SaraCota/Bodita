@@ -13,6 +13,10 @@
   src: url(fonts/PressStart2P-Regular.ttf);
 }
 
+.rojito {
+  color: #e93f61;
+}
+
 .header-se {
   height: 980px;
   background-image: url(images/header.jpg);
@@ -51,14 +55,16 @@
 }
 
 .gifs {
-  position: relative;
-  right: 50%;
-  width: 500px;
+  width: 200px;
   image-rendering: pixelated;
 }
 
-.gifs-m {
-  display: none;
+.text1 {
+  width: 40%;
+  font-size: 200%;
+  text-align: center;
+  font-family: "PressStart2P";
+  color: #222034;
 }
 
 @media screen and (max-width: 500px) {
@@ -74,16 +80,13 @@
   }
 
   .gifs {
-    position: inherit;
-    right: 0%;
-    width: 100%;
-  }
-
-  .gifs-d {
-    display: none;
-  }
-
-  .gifs-m {
     display: flex;
+    width: 12vh;
+    justify-content: center;
+  }
+
+  .text1 {
+    width: 80%;
+    font-size: 150%;
   }
 }
