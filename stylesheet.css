@@ -14,7 +14,7 @@
 }
 
 .header-se h1 {
-  font-size: 128px;
+  font-size: 8em;
   color: white;
   mix-blend-mode: overlay;
   text-shadow: 0 4px 4px black;
@@ -52,9 +52,15 @@
 }
 
 @media screen and (max-width: 500px) {
-  .header-se > h1 {
-    height: 980px;
-    top: 60vw;
+  .header-se {
+    height: 480px;
+  }
+
+  .header-se h1 {
+    position: relative;
+    bottom: 3vw;
+    font-size: 4em;
+    bottom: 10vw;
   }
 
   .gifs {
