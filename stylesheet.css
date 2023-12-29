@@ -32,6 +32,22 @@ body {
   color: #222034;
 }
 
+.text1-1 {
+  width: 100%;
+  font-size: 100%;
+  text-align: center;
+  font-family: "PressStart2P";
+  color: #222034;
+}
+
+.text2 {
+  width: 100%;
+  font-size: 200%;
+  text-align: 100% justify;
+  font-family: "PressStart2P";
+  color: #e93f61;
+}
+
 .ts-default {
   font-size: 24px;
 }
@@ -76,6 +92,32 @@ body {
   transform: rotate(270deg);
   height: 347px;
   width: 250px;
+}
+
+.d20 {
+  position: relative;
+  height: 200px;
+  width: 200px;
+
+}
+
+.rectangle{
+  margin: auto;
+  text-align: center;
+  width: 60%;
+  border: 5px solid #E93F61;
+  border-radius: 23px;
+  padding: 10px;
+  
+}
+
+.dotted{
+  padding: 10%;
+  text-align: justify;
+  border-style: dashed;
+   border-width: 5px;
+   border-radius: 23px;
+   border-color: #e93f61;
 }
 
 .header-1 {
