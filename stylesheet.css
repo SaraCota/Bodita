@@ -21,15 +21,28 @@ body {
 }
 
 .rojito {
-  color: #e93f61;
+  color: #e93f61 !important;
 }
 
 .negrito {
-  color: #222034;
+  color: #222034 !important;
 }
 
 .pixel {
   font-family: "PressStart2P";
+}
+
+.c_reg {
+  text-align: right;
+  width: 80%;
+  font-size: 6em !important;
+  line-height: 1em;
+}
+
+.c_reg_elem {
+  font-family: "PT Mono";
+  color: #222034;
+  font-size: 1em;
 }
 
 .text1 {
@@ -188,6 +201,12 @@ body {
   position: relative;
   top: 300px;
   z-index: -2;
+}
+
+#novios {
+  border-radius: 63px;
+  width: 90%;
+  box-shadow: 4px 4px 13px rgba(34, 32, 52, 25%);
 }
 
 @media screen and (max-width: 500px) {

@@ -36,12 +36,34 @@ const x = setInterval(function () {
 
   // Mostrar el contador en el elemento con id "countdown"
   document.getElementById("countdown").innerHTML = `
-      <div>${months} meses</div>
-      <div>${days} días</div>
-      <div>${hours} horas</div>
-      <div>${minutes} minutos</div>
-      <div>${seconds} segundos</div>
+      <div class="row">
+        <div class="col">
+          <p class="c_reg_elem">meses</p>
+        </div>
+        <div class="col">
+          ${months}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="c_reg_elem">días</p>
+        </div>
+        <div class="col">
+          ${days}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="c_reg_elem">horas</p>
+        </div>
+        <div class="col">
+          ${hours}
+        </div>
+      </div>
     `;
+
+  //<div>${minutes} minutos</div>
+  //<div>${seconds} segundos</div>
 
   // Cuando la cuenta regresiva termina, mostrar un mensaje
   if (distance < 0) {
