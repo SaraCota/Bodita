@@ -24,6 +24,14 @@ body {
   color: #e93f61;
 }
 
+.negrito {
+  color: #222034;
+}
+
+.pixel {
+  font-family: "PressStart2P";
+}
+
 .text1 {
   width: 40%;
   font-size: 200%;
@@ -98,26 +106,24 @@ body {
   position: relative;
   height: 200px;
   width: 200px;
-
 }
 
-.rectangle{
+.rectangle {
   margin: auto;
   text-align: center;
   width: 60%;
-  border: 5px solid #E93F61;
+  border: 5px solid #e93f61;
   border-radius: 23px;
   padding: 10px;
-  
 }
 
-.dotted{
+.dotted {
   padding: 10%;
   text-align: justify;
   border-style: dashed;
-   border-width: 5px;
-   border-radius: 23px;
-   border-color: #e93f61;
+  border-width: 5px;
+  border-radius: 23px;
+  border-color: #e93f61;
 }
 
 .header-1 {
@@ -139,6 +145,30 @@ body {
 
 .gifs-m {
   display: none;
+}
+
+.inv-item {
+  width: 80%;
+  margin: auto;
+  border: #e93f61 solid 10px;
+  border-radius: 39px;
+  padding: 10px;
+}
+
+.inv-int {
+  border: #e93f61 dashed 5px;
+  border-radius: 23px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.inv-text {
+  width: 100%;
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 @media screen and (max-width: 500px) {
@@ -168,5 +198,17 @@ body {
   }
   .ts-default {
     font-size: 16px;
+  }
+  .inv-item {
+    width: 95%;
+  }
+
+  .inv-int {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .texto-linea {
+    font-size: 0.5em;
   }
 }
