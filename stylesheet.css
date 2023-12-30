@@ -154,7 +154,10 @@ body {
   border-radius: 39px;
   padding: 10px;
 }
-
+#map{
+  height: 400px;
+  width: 100%;
+}
 .inv-int {
   border: #e93f61 dashed 5px;
   border-radius: 23px;
