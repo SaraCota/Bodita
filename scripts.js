@@ -1,10 +1,3 @@
-const myCarouselElement = document.querySelector("#myCarousel");
-
-const carousel = new bootstrap.Carousel(myCarouselElement, {
-  interval: 2000,
-  touch: false,
-});
-
 function resize(el, factor) {
   var width = el.offsetWidth;
   el.style.fontSize = ((width / factor) | 0) + "px";
