@@ -174,9 +174,26 @@ body {
   text-align: center;
 }
 
+.flowers {
+  height: 0;
+}
+
+.sm-flower {
+  position: relative;
+  z-index: -1;
+  top: 450px;
+}
+
+.leaves {
+  position: relative;
+  top: 300px;
+  z-index: -2;
+}
+
 @media screen and (max-width: 500px) {
   .header-se {
     height: 480px;
+    background-position: center;
   }
 
   .header-se h1 {
@@ -213,5 +230,18 @@ body {
 
   .texto-linea {
     font-size: 0.5em;
+  }
+
+  .flowers > img {
+    width: 100%;
+  }
+
+  .sm-flower {
+    width: 30%;
+    top: 200px;
+  }
+
+  .leaves {
+    top: 250px;
   }
 }
