@@ -33,13 +33,23 @@ body {
 }
 
 .c_reg {
-  text-align: right;
+  text-align: center;
   width: 80%;
   font-size: 6em !important;
   line-height: 1em;
 }
 
-.c_reg_elem {
+.c_reg:after {
+  content: " ";
+  display: block;
+  border: #e93f61 2px solid;
+  height: 0px;
+  width: 90%;
+  position: relative;
+  z-index: -1;
+}
+
+​ .c_reg_elem {
   font-family: "PT Mono";
   color: #222034;
   font-size: 1em;
@@ -113,6 +123,7 @@ body {
   transform: rotate(270deg);
   height: 347px;
   width: 250px;
+  align-items: center;
 }
 
 .d20 {
@@ -204,9 +215,16 @@ body {
 }
 
 #novios {
-  border-radius: 63px;
   width: 90%;
   box-shadow: 4px 4px 13px rgba(34, 32, 52, 25%);
+}
+
+.space {
+  height: 5vw;
+}
+
+.countdown {
+  width: 80%;
 }
 
 @media screen and (max-width: 500px) {
@@ -235,6 +253,16 @@ body {
   .h_cursive {
     font-size: 38px;
   }
+
+  .c_reg {
+    width: 100%;
+    font-size: 3em !important;
+  }
+
+  #countdown {
+    font-size: 100%;
+  }
+
   .ts-default {
     font-size: 16px;
   }
@@ -262,5 +290,9 @@ body {
 
   .leaves {
     top: 250px;
+  }
+
+  .countdown {
+    width: 100%;
   }
 }
