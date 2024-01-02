@@ -24,6 +24,54 @@ body {
   color: #e93f61 !important;
 }
 
+.btn-outline-rojo {
+  text-decoration: none;
+  color: #222034;
+  background-color: #fff;
+  border-color: #e93f61; 
+}
+
+
+.btn-outline-rojo:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #222034;
+  border-color: #222034;
+}
+
+
+.btn-outline-rojo:active {
+  text-decoration: none;
+  color: #222034;
+  background-color: #e93f61;
+  border-color: #e93f61;
+}
+
+
+.btn-outline-rojo {
+  text-decoration: none;
+  color: #222034;
+  background-color: #fff;
+  border-color: #e93f61; 
+}
+
+
+.btn-outline-rojo:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #222034;
+  border-color: #222034;
+}
+
+
+.btn-outline-rojo:active {
+  text-decoration: none;
+  color: #222034;
+  background-color: #e93f61;
+  border-color: #e93f61;
+}
+
+
 .negrito {
   color: #222034 !important;
 }
@@ -53,6 +101,11 @@ body {
   font-family: "PT Mono";
   color: #222034;
   font-size: 1em;
+}
+
+.mono{
+  font-family: "PT Mono";
+  font-size: 1vw;
 }
 
 .text1 {
@@ -106,6 +159,12 @@ body {
     rgba(255, 255, 255, 1) 15%,
     rgba(255, 255, 255, 0) 100%
   );
+}
+
+.belle{
+  color: #e93f61;
+  font-family: "La Belle Aurore";
+  font-size: 4vw;
 }
 
 .h_cursive {
