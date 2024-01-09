@@ -24,6 +24,10 @@ body {
   color: #e93f61 !important;
 }
 
+.blanquito{
+  color: #fff;
+}
+
 .btn-outline-rojo {
   text-decoration: none;
   color: #222034;
@@ -173,6 +177,12 @@ body {
   font-size: 32px;
 }
 
+.cursive {
+  color: #fff;
+  font-family: "La Belle Aurore";
+  font-size: 32px;
+}
+
 .rotate90 {
   transform: rotate(90deg);
   height: 347px;
@@ -223,6 +233,11 @@ body {
 
 .gifs {
   width: 200px;
+  image-rendering: pixelated;
+}
+
+.vestimenta {
+  width: 100px;
   image-rendering: pixelated;
 }
 
@@ -284,6 +299,17 @@ body {
 
 .countdown {
   width: 80%;
+}
+
+.contenedor-gris {
+  background-color: #f2f2f2;
+
+}
+
+.imagen-circular {
+  border-radius: 50%; 
+  background-color: white; 
+  padding: 10px;
 }
 
 @media screen and (max-width: 500px) {
@@ -354,4 +380,20 @@ body {
   .countdown {
     width: 100%;
   }
+
+  .columna {
+    max-width: 100%; 
+  }
+
+  .mono{
+    font-family: "PT Mono";
+    font-size: 3vw; 
+  }
+
+  .belle{
+    color: #e93f61;
+    font-family: "La Belle Aurore";
+    font-size: 5vw;
+  }
+
 }
