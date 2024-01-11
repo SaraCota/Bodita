@@ -36,7 +36,7 @@ body {
 }
 
 .info {
-  width:50%;
+  width:50vw;
 }
 
 .btn-outline-rojo:hover {
@@ -90,17 +90,19 @@ body {
 .c_reg {
   text-align: center;
   width: 80%;
-  font-size: 6em !important;
+  font-size: 6vw !important;
   line-height: 1em;
 }
 
 .c_reg:after {
   content: " ";
   display: block;
-  border: #e93f61 2px solid;
+  border: #e93f61 2px dashed;
   height: 0px;
-  width: 90%;
+  width: 40%;
   position: relative;
+  left:40%;
+  bottom:1vw;
   z-index: -1;
 }
 
@@ -258,8 +260,8 @@ body {
   border-radius: 23px;
   padding-top: 5%;
   padding-bottom: 5%;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .inv-text {
@@ -295,7 +297,7 @@ body {
 }
 
 .countdown {
-  width: 80%;
+  width: 60%;
 }
 
 .contenedor-gris {
@@ -379,7 +381,7 @@ body {
   }
 
   .countdown {
-    width: 100%;
+    width: 95%;
   }
 
   .columna {
@@ -395,4 +397,10 @@ body {
     font-size: 100%;
   }
 
+}
+
+@media screen and (max-width: 1100px) {
+  .info{
+    width: 90vw;
+  }
 }
