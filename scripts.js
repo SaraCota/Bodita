@@ -34,8 +34,14 @@ const x = setInterval(function () {
   const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+  document.getElementById("meses").innerHTML = `${months}`;
+  document.getElementById("dias").innerHTML = `${days}`;
+  document.getElementById("horas").innerHTML = `${hours}`;
+  document.getElementById("minutos").innerHTML = `${minutes}`;
+  document.getElementById("segundos").innerHTML = `${seconds}`;
+
   // Mostrar el contador en el elemento con id "countdown"
-  document.getElementById("countdown").innerHTML = `
+  /*document.getElementById("countdown").innerHTML = `
       <div class="row">
         <div class="col">
           <p class="c_reg_elem">meses</p>
@@ -60,7 +66,23 @@ const x = setInterval(function () {
           ${hours}
         </div>
       </div>
-    `;
+      <div class="row">
+        <div class="col">
+          <p class="c_reg_elem">minutos</p>
+        </div>
+        <div class="col">
+          ${minutes}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="c_reg_elem">segundos</p>
+        </div>
+        <div class="col">
+          ${seconds}
+        </div>
+      </div>
+    `;*/
 
   //<div>${minutes} minutos</div>
   //<div>${seconds} segundos</div>

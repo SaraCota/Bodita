@@ -35,6 +35,9 @@ body {
   border-color: #e93f61; 
 }
 
+.info {
+  width:50%;
+}
 
 .btn-outline-rojo:hover {
   text-decoration: none;
@@ -165,16 +168,10 @@ body {
   );
 }
 
-.belle{
-  color: #e93f61;
-  font-family: "La Belle Aurore";
-  font-size: 4vw;
-}
-
 .h_cursive {
   color: #e93f61;
   font-family: "La Belle Aurore";
-  font-size: 32px;
+  font-size: 40px;
 }
 
 .cursive {
@@ -331,6 +328,10 @@ body {
     justify-content: center;
   }
 
+  .info {
+    width:100%;
+  }
+
   .text1 {
     width: 80%;
     font-size: 150%;
@@ -390,10 +391,8 @@ body {
     font-size: 3vw; 
   }
 
-  .belle{
-    color: #e93f61;
-    font-family: "La Belle Aurore";
-    font-size: 5vw;
+  .text2 {
+    font-size: 100%;
   }
 
 }
