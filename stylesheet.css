@@ -302,7 +302,6 @@ body {
 
 .contenedor-gris {
   background-color: #f2f2f2;
-
 }
 
 .imagen-circular {
@@ -395,6 +394,11 @@ body {
 
   .text2 {
     font-size: 100%;
+  }
+
+  .footer {
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
 
 }
