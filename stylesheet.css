@@ -266,6 +266,11 @@ body {
   image-rendering: pixelated;
 }
 
+.whats {
+  width: 80px;
+
+}
+
 .gifs-m {
   display: none;
 }
