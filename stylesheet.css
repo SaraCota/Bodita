@@ -90,7 +90,7 @@ body {
 .c_reg {
   text-align: center;
   width: 80%;
-  font-size: 6vw !important;
+  font-size: 5vw !important;
   line-height: 1em;
 }
 
@@ -99,14 +99,15 @@ body {
   display: block;
   border: #e93f61 2px dashed;
   height: 0px;
-  width: 40%;
+  width: 70%;
   position: relative;
-  left:40%;
+  left:50%;
   bottom:1vw;
   z-index: -1;
 }
 
 ​ .c_reg_elem {
+  text-align: center;
   font-family: "PT Mono";
   color: #222034;
   font-size: 1em;
@@ -198,6 +199,15 @@ body {
   position: relative;
   height: 200px;
   width: 200px;
+  left:55px;
+}
+
+.d10 {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  right:70px;
+  top:50px;
 }
 
 .rectangle {
@@ -343,7 +353,7 @@ body {
 
   .c_reg {
     width: 100%;
-    font-size: 3em !important;
+    font-size: 2.5em !important;
   }
 
   #countdown {

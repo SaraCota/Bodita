@@ -40,53 +40,6 @@ const x = setInterval(function () {
   document.getElementById("minutos").innerHTML = `${minutes}`;
   document.getElementById("segundos").innerHTML = `${seconds}`;
 
-  // Mostrar el contador en el elemento con id "countdown"
-  /*document.getElementById("countdown").innerHTML = `
-      <div class="row">
-        <div class="col">
-          <p class="c_reg_elem">meses</p>
-        </div>
-        <div class="col">
-          ${months}
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <p class="c_reg_elem">días</p>
-        </div>
-        <div class="col">
-          ${days}
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <p class="c_reg_elem">horas</p>
-        </div>
-        <div class="col">
-          ${hours}
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <p class="c_reg_elem">minutos</p>
-        </div>
-        <div class="col">
-          ${minutes}
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <p class="c_reg_elem">segundos</p>
-        </div>
-        <div class="col">
-          ${seconds}
-        </div>
-      </div>
-    `;*/
-
-  //<div>${minutes} minutos</div>
-  //<div>${seconds} segundos</div>
-
   // Cuando la cuenta regresiva termina, mostrar un mensaje
   if (distance < 0) {
     clearInterval(x);
