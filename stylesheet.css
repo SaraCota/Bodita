@@ -85,6 +85,7 @@ body {
 
 .pixel {
   font-family: "PressStart2P";
+  font-size: 12px
 }
 
 .c_reg {
@@ -307,7 +308,29 @@ body {
 .imagen-circular {
   border-radius: 50%; 
   background-color: white; 
-  padding: 10px;
+  padding: 30px;
+  width: 150px;
+  height: 150px;
+}
+
+/* wea de movimiento*/
+
+.card, .card-tilt-js {
+  width: 400px;
+  height: 500px;
+  font-size: 1.75rem;
+  color: #fff;
+  background-color: #e84393;
+  display: flex;
+  flex-direction: column;
+	align-items: center;
+  justify-content: center;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  margin: 0 3rem;
+}
+.card h1, .card-tilt-js h1 {
+  transform: translateZ(50px);
 }
 
 @media screen and (max-width: 500px) {
@@ -407,4 +430,9 @@ body {
   .info{
     width: 90vw;
   }
+
+  .pixel{
+    font-size: 2vw;
+  }
+
 }
