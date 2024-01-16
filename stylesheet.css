@@ -89,7 +89,7 @@ body {
 }
 
 .c_reg {
-  text-align: center;
+  text-align: right;
   width: 80%;
   font-size: 5vw !important;
   line-height: 1em;
@@ -194,6 +194,21 @@ body {
   height: 347px;
   width: 250px;
   align-items: center;
+}
+
+.float-leave {
+  position: relative;
+  display: inline-flex;
+  top: 200px;
+  right:150px;
+}
+
+.diceweb {
+  display:block;
+}
+
+.dicemob {
+  display: none;
 }
 
 .d20 {
@@ -328,6 +343,14 @@ body {
   height: 150px;
 }
 
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display:block;
+}
+
 /* wea de movimiento*/
 
 .card, .card-tilt-js {
@@ -349,6 +372,15 @@ body {
 }
 
 @media screen and (max-width: 500px) {
+
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display:none;
+  }
+  
   .header-se {
     height: 480px;
     background-position: center;
@@ -438,6 +470,25 @@ body {
     margin-left: 10vw;
     margin-right: 10vw;
   }
+
+  .diceweb {
+    display: none;
+  }
+
+  .dicemob {
+    display: inline-flex;
+  }
+
+  .dicemob > img {
+    display: inline-flex;
+  }
+
+  .float-leave{
+    top: 15vh;
+    right:15vh;
+  }
+
+  
 
 }
 
