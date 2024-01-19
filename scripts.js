@@ -133,3 +133,20 @@ function initMap() {
     }, tiltEffectSettings.speed);
   }
 }
+
+var audio = document.getElementById("miAudio");
+
+    function startAudioOnScroll() {
+       
+        window.addEventListener("scroll", function() {
+          
+            var scrollThreshold = window.innerHeight / 2;
+            
+            if (window.scrollY >= scrollThreshold) {
+                audio.play();
+                window.removeEventListener("scroll", startAudioOnScroll);
+            }
+        });
+    }
+
+    startAudioOnScroll();
