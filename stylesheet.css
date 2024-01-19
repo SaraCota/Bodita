@@ -24,7 +24,7 @@ body {
   color: #e93f61 !important;
 }
 
-.blanquito{
+.blanquito {
   color: #fff;
 }
 
@@ -32,11 +32,11 @@ body {
   text-decoration: none;
   color: #222034;
   background-color: #fff;
-  border-color: #e93f61; 
+  border-color: #e93f61;
 }
 
 .info {
-  width:50vw;
+  width: 50vw;
 }
 
 .btn-outline-rojo:hover {
@@ -46,22 +46,19 @@ body {
   border-color: #222034;
 }
 
-
 .btn-outline-rojo:active {
   text-decoration: none;
   color: #222034;
   background-color: #e93f61;
   border-color: #e93f61;
 }
-
 
 .btn-outline-rojo {
   text-decoration: none;
   color: #222034;
   background-color: #fff;
-  border-color: #e93f61; 
+  border-color: #e93f61;
 }
-
 
 .btn-outline-rojo:hover {
   text-decoration: none;
@@ -70,14 +67,12 @@ body {
   border-color: #222034;
 }
 
-
 .btn-outline-rojo:active {
   text-decoration: none;
   color: #222034;
   background-color: #e93f61;
   border-color: #e93f61;
 }
-
 
 .negrito {
   color: #222034 !important;
@@ -85,7 +80,7 @@ body {
 
 .pixel {
   font-family: "PressStart2P";
-  font-size: 12px
+  font-size: 12px;
 }
 
 .c_reg {
@@ -102,8 +97,8 @@ body {
   height: 0px;
   width: 70%;
   position: relative;
-  left:50%;
-  bottom:1vw;
+  left: 50%;
+  bottom: 1vw;
   z-index: -1;
 }
 
@@ -114,7 +109,7 @@ body {
   font-size: 1em;
 }
 
-.mono{
+.mono {
   font-family: "PT Mono";
   font-size: 1vw;
 }
@@ -125,6 +120,8 @@ body {
   text-align: center;
   font-family: "PressStart2P";
   color: #222034;
+  text-shadow: 3px 0 #fff, -3px 0 #fff, 0 3px #fff, 0 -3px #fff, 1px 1px #fff,
+    -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
 }
 
 .text1-1 {
@@ -200,11 +197,11 @@ body {
   position: relative;
   display: inline-flex;
   top: 200px;
-  right:150px;
+  right: 150px;
 }
 
 .diceweb {
-  display:block;
+  display: block;
 }
 
 .dicemob {
@@ -215,15 +212,15 @@ body {
   position: relative;
   height: 200px;
   width: 200px;
-  left:55px;
+  left: 55px;
 }
 
 .d10 {
   position: relative;
   height: 200px;
   width: 200px;
-  right:70px;
-  top:50px;
+  right: 70px;
+  top: 50px;
 }
 
 .rectangle {
@@ -266,9 +263,13 @@ body {
   image-rendering: pixelated;
 }
 
+.regalos {
+  width: 320px;
+  image-rendering: pixelated;
+}
+
 .whats {
   width: 80px;
-
 }
 
 .gifs-m {
@@ -336,8 +337,8 @@ body {
 }
 
 .imagen-circular {
-  border-radius: 50%; 
-  background-color: white; 
+  border-radius: 50%;
+  background-color: white;
   padding: 30px;
   width: 150px;
   height: 150px;
@@ -348,12 +349,13 @@ body {
 }
 
 .desktop {
-  display:block;
+  display: block;
 }
 
 /* wea de movimiento*/
 
-.card, .card-tilt-js {
+.card,
+.card-tilt-js {
   width: 400px;
   height: 500px;
   font-size: 1.75rem;
@@ -361,26 +363,26 @@ body {
   background-color: #e84393;
   display: flex;
   flex-direction: column;
-	align-items: center;
+  align-items: center;
   justify-content: center;
   transform-style: preserve-3d;
   transform: perspective(1000px);
   margin: 0 3rem;
 }
-.card h1, .card-tilt-js h1 {
+.card h1,
+.card-tilt-js h1 {
   transform: translateZ(50px);
 }
 
 @media screen and (max-width: 500px) {
-
   .mobile {
     display: block;
   }
 
   .desktop {
-    display:none;
+    display: none;
   }
-  
+
   .header-se {
     height: 480px;
     background-position: center;
@@ -400,7 +402,7 @@ body {
   }
 
   .info {
-    width:100%;
+    width: 100%;
   }
 
   .text1 {
@@ -454,12 +456,12 @@ body {
   }
 
   .columna {
-    max-width: 100%; 
+    max-width: 100%;
   }
 
-  .mono{
+  .mono {
     font-family: "PT Mono";
-    font-size: 3vw; 
+    font-size: 3vw;
   }
 
   .text2 {
@@ -483,22 +485,18 @@ body {
     display: inline-flex;
   }
 
-  .float-leave{
+  .float-leave {
     top: 15vh;
-    right:15vh;
+    right: 15vh;
   }
-
-  
-
 }
 
 @media screen and (max-width: 1100px) {
-  .info{
+  .info {
     width: 90vw;
   }
 
-  .pixel{
+  .pixel {
     font-size: 2vw;
   }
-
 }
