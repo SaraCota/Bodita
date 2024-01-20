@@ -300,6 +300,36 @@ body {
   padding-right: 10%;
 }
 
+.ob-red {
+  border: #e93f61 solid 10px;
+  border-radius: 39px;
+  padding: 10px;
+}
+
+.ib-red {
+  border: #e93f61 dashed 5px;
+  border-radius: 23px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.ob-neg {
+  border: #222034 solid 10px;
+  border-radius: 39px;
+  padding: 10px;
+}
+
+.ib-neg {
+  border: #222034 dashed 5px;
+  border-radius: 23px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .inv-text {
   width: 100%;
   display: inline-block;
@@ -312,6 +342,7 @@ body {
 }
 
 .sm-flower {
+  height: 0;
   position: relative;
   z-index: -1;
   top: 450px;
@@ -470,7 +501,6 @@ body {
 
   .mono {
     font-family: "PT Mono";
-    font-size: 3vw;
   }
 
   .text2 {
