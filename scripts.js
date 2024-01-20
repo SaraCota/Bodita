@@ -135,18 +135,32 @@ function initMap() {
 }
 
 var audio = document.getElementById("miAudio");
+var musicOn = false;
+var visited = false;
 
-    function startAudioOnScroll() {
-       
-        window.addEventListener("scroll", function() {
-          
-            var scrollThreshold = window.innerHeight / 2;
-            
-            if (window.scrollY >= scrollThreshold) {
-                audio.play();
-                window.removeEventListener("scroll", startAudioOnScroll);
-            }
-        });
+function startAudioOnScroll() {
+  window.addEventListener("scroll", function () {
+    var scrollThreshold = window.innerHeight / 2;
+
+    if (window.scrollY >= scrollThreshold && !visited) {
+      audio.play();
+      visited = true;
+      musicOn = true;
+      window.removeEventListener("scroll", startAudioOnScroll);
     }
+  });
+}
 
-    startAudioOnScroll();
+function stopOrPlay() {
+  if (musicOn) {
+    audio.pause();
+    musicOn = false;
+  } else {
+    audio.play();
+    musicOn = true;
+  }
+}
+
+if (!visited) {
+  startAudioOnScroll();
+}

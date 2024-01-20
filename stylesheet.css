@@ -387,6 +387,12 @@ body {
   display: block;
 }
 
+.bocina {
+  position: fixed;
+  z-index: 100;
+  image-rendering: pixelated;
+}
+
 /* wea de movimiento*/
 
 .card,
