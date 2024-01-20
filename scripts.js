@@ -162,6 +162,16 @@ bocina.addEventListener("click", function () {
   }
 });
 
+bocina.addEventListener("tap", function () {
+  if (musicOn) {
+    audio.pause();
+    musicOn = false;
+  } else {
+    audio.play();
+    musicOn = true;
+  }
+});
+
 if (!visited) {
   startAudioOnScroll();
 }
