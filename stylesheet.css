@@ -387,7 +387,7 @@ body {
   display: block;
 }
 
-.bocina {
+#bocina {
   position: fixed;
   z-index: 100;
   image-rendering: pixelated;

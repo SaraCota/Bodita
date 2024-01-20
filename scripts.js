@@ -135,6 +135,7 @@ function initMap() {
 }
 
 var audio = document.getElementById("miAudio");
+var bocina = document.getElementById("bocina");
 var musicOn = false;
 var visited = false;
 
@@ -151,7 +152,7 @@ function startAudioOnScroll() {
   });
 }
 
-function stopOrPlay() {
+bocina.addEventListener("click", function () {
   if (musicOn) {
     audio.pause();
     musicOn = false;
@@ -159,7 +160,7 @@ function stopOrPlay() {
     audio.play();
     musicOn = true;
   }
-}
+});
 
 if (!visited) {
   startAudioOnScroll();
