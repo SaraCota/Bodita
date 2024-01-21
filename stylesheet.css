@@ -187,17 +187,14 @@ body {
 
 .rotate90 {
   transform: rotate(90deg);
-  height: 347px;
-  width: 250px;
 }
 .rotate270 {
   transform: rotate(270deg);
-  height: 347px;
-  width: 250px;
   align-items: center;
 }
 
 .float-leave {
+  width:50%;
   position: relative;
   display: inline-flex;
   top: 200px;
@@ -352,6 +349,11 @@ body {
   position: relative;
   top: 300px;
   z-index: -2;
+}
+
+.ramas {
+  width: 250px;
+  height: 347px;
 }
 
 #novios {
